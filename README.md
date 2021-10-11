@@ -11,6 +11,8 @@ cd act-output-bug
 act pull_request -j build
 ```
 
+This is the workflow working fine on GitHub runner: https://github.com/josecelano/act-output-bug/actions/workflows/act-bug-workflow.yml
+
 Remove cached docker image:
 ```
 docker image rm act-github-actions-sample-action
