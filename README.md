@@ -1,4 +1,4 @@
-## ACT bug
+## ACT bug: `dockerfile` action is not able to set output variables
 
 This is a sample repo to reproduce an `act` bug.
 
