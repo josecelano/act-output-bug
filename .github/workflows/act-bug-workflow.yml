@@ -24,13 +24,9 @@ jobs:
       - name: set_3
         id: set_3
         uses: ./.github/actions/sample-action
-        env:
-          DVC_REPO_DIR: "${{ github.workspace }}"
-          PREVIOUS_REF: HEAD
-          CURRENT_REF:
 
-      - name: Debug diff ouput
+      - name: print
         run: |
           echo "The diff output is: ${{ steps.set_1.outputs.var_1 }}"
           echo "The diff output is: ${{ steps.set_2.outputs.var_2 }}"
-          echo "The diff output is: ${{ steps.set_3.outputs.diff }}"
+          echo "The diff output is: ${{ steps.set_3.outputs.var_3 }}"
