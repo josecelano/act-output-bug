@@ -2,6 +2,8 @@
 
 This is a sample repo to reproduce an `act` bug.
 
+The issue on the original repo: https://github.com/nektos/act/issues/839
+
 It seems you cannot get the value from a previous step output.
 
 How to reproduce it:
