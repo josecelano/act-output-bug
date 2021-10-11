@@ -2,7 +2,7 @@ name: "Sample action"
 description: "Sample action to reproduce act bug"
 author: "Jose Celano"
 outputs:
-  var3:
+  var_3:
     description: "The output var"
 runs:
   using: "docker"
