@@ -50,9 +50,36 @@ This is the act `ouput`:
 ```
 You can find the verbose output [here](./output.md).
 
+System information:
+```
+Operating System: Linux
+Architecture: x86_64
+Apple M1: no
+Docker version: 20.10.9, build c2ea9bc
+Docker image used in `act`: catthehacker/ubuntu:act-latest
+`act` version: 0.2.24
+```
+
+OS version:
+```
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.3 LTS
+Release:	20.04
+Codename:	focal
+```
+
 Docker version:
 ```
 Docker version 20.10.9, build c2ea9bc
 ```
 
+`act` docker iamge:
+```
 Docker [catthehacker/ubuntu:act-latest](./docker-inspect.json).
+```
+
+`act` version:
+```
+act version 0.2.24
+```
